@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Libre_Franklin } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const librefranklin = Libre_Franklin({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Connections",
+  title: "SOON Connections",
   description: "Group four groups of four!",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={librefranklin.className}>{children}</body>
     </html>
   );
 }

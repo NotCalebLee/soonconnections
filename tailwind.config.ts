@@ -25,9 +25,16 @@ const config: Config = {
             transform: "translateX(5px)",
           },
         },
+        "solve-pop": {
+        "0%": { transform: "scale(0.9)", opacity: "0" },
+        "60%": { transform: "scale(1.05)", opacity: "1" },
+        "100%": { transform: "scale(1)" },
+      },
       },
       animation: {
         "horizontal-shake": "horizontal-shake 0.2s ease-in-out infinite",
+        "solve-pop": "solve-pop 0.4s ease-in-out",
+
       },
     },
   },
