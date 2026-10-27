@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
-  output: 'export',               // build to a static "out" folder
-  basePath: '/soonconnections',   // site lives at /soonconnections, not the domain root
-  images: { unoptimized: true },  // next/image optimization needs a server
+  output: 'export',
+  basePath: isProd ? '/soonconnections' : '',
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
