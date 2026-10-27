@@ -1,9 +1,12 @@
+
+
+
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
+const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
 
 const nextConfig = {
   output: 'export',
-  basePath: isProd ? '/soonconnections' : '',
+  basePath: isGitHubPages ? '/soonconnections' : '',
   images: { unoptimized: true },
 };
 
