@@ -2,23 +2,23 @@ import { Category } from "./_types";
 
 export const categories: Category[] = [
   {
-    category: 'WHAT IS HAPPENING??',
-    items: ["WE'RE", "GOING", "APPLE", "PICKING!!"],
+    category: "BOSTON ___",
+    items: ["COMMON", "HARBOR", "MARATHON", "TERRIER"],
     level: 1,
   },
   {
-    category: "WHEN & WHERE?",
-    items: ["SEPTEMBER 26TH", "9AM-3PM", "HONEY POT HILL", "ORCHARDS"],
+    category: "JESUS'S 'I AM' STATEMENTS",
+    items: ["LIGHT", "GATE", "VINE", "BREAD"],
     level: 2,
   },
   {
-    category: "WHAT TO EXPECT?",
-    items: ["FELLOWSHIP", "CIDER", "DONUTS", "LOTS OF APPLES!!"],
+    category: "BOSTON SPORTS MASCOTS",
+    items: ["WALLY", "LUCKY", "BLADES", "PAT"],
     level: 3,
   },
   {
-    category: "BE THERE!",
-    items: ["WE'LL", "SEE", "YOU", "THERE!!"],
+    category: "___ HILL",
+    items: ["BEACON", "BUNKER", "MISSION", "MARS"],
     level: 4,
   },
 ];
