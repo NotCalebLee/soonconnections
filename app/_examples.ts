@@ -2,23 +2,23 @@ import { Category } from "./_types";
 
 export const categories: Category[] = [
   {
-    category: "BOSTON ___",
-    items: ["COMMON", "HARBOR", "MARATHON", "TERRIER"],
+    category: "SLIDES TEAM!!",
+    items: ["PHILLIP", "CLEE", "YEJUN", "VIDI"],
     level: 1,
   },
   {
-    category: "JESUS'S 'I AM' STATEMENTS",
-    items: ["LIGHT", "GATE", "VINE", "BREAD"],
+    category: "HAVE LED LG PRAYER THIS SEM",
+    items: ["CHI", "GRACE", "HANNAH", "MARK"],
     level: 2,
   },
   {
-    category: "BOSTON SPORTS MASCOTS",
-    items: ["WALLY", "LUCKY", "BLADES", "PAT"],
+    category: "HAVE NON-STEM MAJORS",
+    items: ["FRIDA", "LIONEL", "SARAH", "JANET"],
     level: 3,
   },
   {
-    category: "___ HILL",
-    items: ["BEACON", "BUNKER", "MISSION", "MARS"],
+    category: "LIVE IN STUVI SINGLE ROOMS",
+    items: ["CHRISTIE", "JAYDEN", "CSONG", "JIMIN"],
     level: 4,
   },
 ];
